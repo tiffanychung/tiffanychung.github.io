@@ -85,3 +85,24 @@ footer p {
   color: #404348;
 }
 /*-----Responsive-----*/
+@media only screen and (max-width; 991px){
+  header p {
+    width: 100%;
+  }
+  .work a img{
+    margin:2%;
+    width: 96%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header{
+    width: 96%;
+    margin: 30px auto 100px auto;
+    text-align: left;
+  }
+  footer{
+    text-align: left;
+    width: 90%;
+    margin: 60px auto;
+  }
+}
