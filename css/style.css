@@ -62,10 +62,12 @@ nav a: nth-child(2){
 header{
   margin: 100px 0 200px 0;
   text-align: center;
+  color: black;
 }
 header p {
   width: 45%;
   margin: 20px auto 0 auto;
+  color: black;
 }
 /*-----Work-----*/
 .work {
