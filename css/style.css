@@ -67,6 +67,21 @@ header p {
   width: 45%;
   margin: 20px auto 0 auto;
 }
-header a{
-  
+/*-----Work-----*/
+.work {
+  text-align: center;
+  width: 100%;
 }
+.work a img{
+  margin: 1%;
+  width: 45%;
+}
+/*-----Footer-----*/
+footer {
+  text-align: center;
+  margin: 60px 0;
+}
+footer p {
+  color: #404348;
+}
+/*-----Responsive-----*/
