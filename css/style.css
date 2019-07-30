@@ -49,11 +49,11 @@ nav {
   line-height: 100px;
 }
 nav a{
-  color:white;
+  color:black;
   text-decorations: none;
 }
 nav a img {
-  vertical-align: middle;
+  vertical-align: right;
 }
 nav a: nth-child(2){
   float: right;
