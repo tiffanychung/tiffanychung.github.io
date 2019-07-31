@@ -20,7 +20,7 @@ body {
 .wrapper {
   width: 90%;
   margin: 0 auto;
-  font-family: Karla;
+  font-family: 'Karla', sans-serif;
 }
 .clearfix::after{
   content: "";
@@ -30,7 +30,7 @@ body {
 h1{
   color: black;
   font-size: 36px;
-  font-family: Karla;
+  font-family: 'Karla', sans-serif;
 }
 /*p{
   color: black;
@@ -54,10 +54,8 @@ nav {
 nav a{
   color:black;
   text-decorations: none;
-  font-family: Karla;
-}
-nav a img {
-  vertical-align: right;
+  font-family: 'Karla', sans-serif;
+  float: right;
 }
 nav a: nth-child(2){
   float: right;
