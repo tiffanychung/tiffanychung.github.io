@@ -12,6 +12,7 @@ html {
 }
 body {
   width: 100%;
+  background-color: green;
   /*background-image: url(img/gradpic.jpg);
   background-repeat: no-repeat;
   background-size: cover;*/
@@ -19,6 +20,7 @@ body {
 .wrapper {
   width: 90%;
   margin: 0 auto;
+  font-family: Karla;
 }
 .clearfix::after{
   content: "";
@@ -28,6 +30,7 @@ body {
 h1{
   color: black;
   font-size: 36px;
+  font-family: Karla;
 }
 /*p{
   color: black;
@@ -35,7 +38,7 @@ h1{
 }
 ul{
   list-style: none;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 li {
   color: black;
@@ -51,12 +54,14 @@ nav {
 nav a{
   color:black;
   text-decorations: none;
+  font-family: Karla;
 }
 nav a img {
   vertical-align: right;
 }
 nav a: nth-child(2){
   float: right;
+  font-family: Karla;
 }
 /*-----Header-----*/
 header{
