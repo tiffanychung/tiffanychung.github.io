@@ -13,7 +13,6 @@ html {
 body {
   width: 100%;
   background-color: #F4E8C1;
-  font-family: 'Karla', sans-serif;
   /*background-image: url(img/gradpic.jpg) EAFFFD;
   background-repeat: no-repeat;
   background-size: cover;*/
@@ -54,17 +53,15 @@ li {
   line-height: 100px;
 }
 
-.navleft{
+.nav #home{
   color: black;
-  text-decorations: none;
-  font-family: 'Karla', sans-serif;
+  text-decoration: none;
   float: left;
 }
 
-.navright{
+.nav #menus{
   color: black;
-  text-decorations: none;
-  font-family: 'Karla', sans-serif;
+  text-decoration: none;
   float: right;
 }
 /*nav a{
