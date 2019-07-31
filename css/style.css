@@ -39,7 +39,8 @@ h1{
 
 /*-----Nav-----*/
 .nav {
-  margin: 100px 0 100px 0;
+  padding-left: 10px;
+  padding-right:10px;
   height: 100px;
   line-height: 100px;
   font-size: 18px;
