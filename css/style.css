@@ -17,16 +17,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover;*/
 }
-.wrapper {
+/*.wrapper {
   width: 90%;
   margin: 0 auto;
-  font-family: 'Karla', sans-serif;
+  /*font-family: 'Karla', sans-serif;
 }
 .clearfix::after{
   content: "";
   clear: both;
   display: table;
-}
+}*/
 h1{
   text-decorations: none;
   color: black;
@@ -48,11 +48,25 @@ li {
 }
 
 /*-----Nav-----*/
-nav {
+.nav {
   height: 100px;
   line-height: 100px;
 }
-nav a{
+
+.nav #home{
+  color: black;
+  text-decorations:none;
+  font-family: 'Karla', sans-serif;
+  float: left;
+}
+
+.nav #menus{
+  color: black;
+  text-decorations:none;
+  font-family: 'Karla', sans-serif;
+  float: right;
+}
+/*nav a{
   color:black;
   text-decorations: none;
   font-family: 'Karla', sans-serif;
@@ -62,7 +76,7 @@ nav a: nth-child(2), nth-child(3){
   float: right;
   text-decorations: none;
   font-family: 'Karla', sans-serif;
-}
+}*/
 /*-----Header-----*/
 header{
   margin: 100px 0 200px 0;
