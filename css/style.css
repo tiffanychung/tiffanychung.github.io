@@ -73,6 +73,7 @@ header p {
 .work {
   text-align: center;
   width: 100%;
+  border-radius: 30px;
 }
 .work a img{
   margin: 1%;
