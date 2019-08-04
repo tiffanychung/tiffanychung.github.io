@@ -23,10 +23,12 @@ p {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
   color: var(--a-color);
 }
 .h1 {
-  font-size: 42px;
+  font-family: "Karla", sans-serif;
+  font-size: 30px;
   font-weight: 400;
   line-height: 40px;
   padding-left: 70px;
@@ -35,10 +37,10 @@ a {
   color: var(--main-text-color);
 }
 .h2 {
-  margin-top: 12px;
+  margin-top: 0px;
   font-weight: 500;
   font-size: 20px;
-  line-height: 28.8px;
+  line-height: 0px;
   color: var(--main-subtext-color);
 }
 .h4 {
