@@ -1,43 +1,158 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title> Tiffany Chung </title>
-  <meta charset = "UTF-8">
-  <meta name = "viewport" content = "width=device-width, initial-scale= 1">
-  <link rel = "stylesheet" type = "text/css" href = "css/style.css"
-  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Tiffany Chung</title>
 </head>
 <body>
-  <nav class = "nav">
-    <nav id = "home">
-      <a href= "index.html"> Tiffany Chung </a>
-    </nav>
-    <nav id = "menus">
-      <a href = "index.html"> Work </a>
-      <a href = "index.html"> About </a>
-    </nav>
-  </nav>
-    <!--<nav class = "clearfix">
-      <a href= "index.html"> Tiffany Chung </a>
-      <a href = "index.html"> Work </a>
-      <a href = "index.html"> About </a>
-      <!--<a href= "#"> <img src = "img/dribbble_icon.png" alt ="personal pic"> </a>
-    </nav> -->
-
-    <header>
-      <h1> Hi, I'm Tiffany! I'm a software engineer and designer. </h1>
-
-    </header>
-
-    <div class = "work">
-      <a href= "#"> <img src ="img/berkxevents.png" alt = "projectimage" class = "imagemaxwidth400" </a>
-      <a href= "#"> <img src ="img/spotifyfromi.png" alt = "projectimage" class = "imagemaxwidth400"</a>
-      <a href= "#"> <img src ="img/03.png" alt = "projectimage"class = "imagemaxwidth400" </a>
-      <a href= "#"> <img src ="img/04.png" alt = "projectimage" class = "imagemaxwidth400"</a>
+  <div id="home-icon">
+       <a href="index.html">
+           <img id="home" src="img/initialslogo.png">
+       </a>
+   </div>
+  <div id = "home-textbox">
+    <div>
+        <p class="h1 home-title">Hi! I'm Tiffany.</p>
+        <p class="h1 home-subline">I'm a creative software developer, looking to change the world one line of code at a time!</p>
+         <p class="h2 home-description" id="learn">You can learn more about me <a href="about.html">here</a>.</p>
+        <p class="h2 home-descripion">See my work below:</p>
     </div>
+  </div>
+    <div id="landing-page">
+      <div class="all_work">
+        <div class="work">
+           <!--<a href="projects/spotify.html">-->
+               <div class="work-pic work-small" id="spotify-img">
+                  <div class="opaque">
+                   <div class = "text_overlay"> Gathered and cleaned data from Spotify's API. Visualized data to determine which features to test on.
+                     Trained data with different models and picked most accurate.
+                     <ul>
+                        <li><a href="https://github.com/tiffanychung/Spotify-Classifier">Github</a></li>
+                      </ul>
+                   </div>
+                  </div>
+               </div>
+              <div class="work-text">
+                <p class="h4 work-title">Spotify Classifier (Python)</p>
+                 <p class="h5 work-description">Built a classifier that recommends you songs</p>
+              </div>
+        </div>
+        <div class="work">
+               <div class="work-pic work-small" id="byow-img">
+                   <div class="opaque">
+                     <div class = "text_overlay"> Designed and implemented a 2D tile-based world exploration engine
+                       that a user was able to explore by walking around and interacting with objects in that world.
+                       <ul>
+                          <li><a href="https://sp19.datastructur.es/materials/proj/proj3/proj3#overview">Project Description</a></li>
+                          <li><a href="https://www.youtube.com/watch?v=1BFfmgflrz4">Video</a></li>
+                        </ul>
+                     </div>
+                   </div>
+               </div>
+              <div class="work-text">
+                <p class="h4 work-title">Build Your Own World</p>
+                <p class="h5 work-description">Designed and developed a tile-rendering game.</p>
+              </div>
+        </div>
+        <div class="work">
+               <div class="work-pic work-small" id="berkeleyxevents-img">
+                  <div class="opaque">
+                   <div class = "text_overlay"> Created during CalHacks (my first hackathon), using Swift, Xcode and MapKits. Designed
+                     to make navigating, filtering and exploring Facebook events easier.
+                     <ul>
+                        <li><a href="https://github.com/tiffanychung/Cal-Hacks-18">Github</a></li>
+                      </ul>
+                   </div>
+                  </div>
+               </div>
+              <div class="work-text">
+                <p class="h4 work-title">BerkeleyXEvents</p>
+                 <p class="h5 work-description">Developed an iOS app to explore Facebook events.</p>
+              </div>
+        </div>
+        <div class="work">
+               <div class="work-pic work-small" id="bearmaps-img">
+                   <div class="opaque">
+                     <div class = "text_overlay"> Programmed the back-end of a web mapping app of Berkeley in Java, with features such as image rastering at varying zoom levels, autocomplete location search, and route mapping
+                       <ul>
+                          <li><a href="https://sp19.datastructur.es/materials/proj/proj2c/proj2c">Project Description</a></li>
+                        </ul>
+                     </div>
+                   </div>
+               </div>
+              <div class="work-text">
+                <p class="h4 work-title">BearMaps</p>
+                <p class="h5 work-description">Developed the backend of a web server.</p>
+              </div>
+        </div>
+        <div class="work">
+               <div class="work-pic work-small" id="todolist-img">
+                  <div class="opaque">
+                   <div class = "text_overlay"> Explored Swift by creating a simple to-do list app included adding, deleting and checking tasks.
+                     <ul>
+                        <li><a href="https://github.com/tiffanychung/to-do-list-app">Github</a></li>
+                      </ul>
+                   </div>
+                  </div>
+               </div>
+              <div class="work-text">
+                <p class="h4 work-title">To-Do List App</p>
+                 <p class="h5 work-description">Built a to-do List app to organize daily tasks.</p>
+              </div>
+        </div>
+        <div class="work">
+               <div class="work-pic work-small" id="csk-img">
+                   <div class="opaque">
+                     <div class = "text_overlay"> Designed flyers using Adobe Illustrator, managed social media efforts and fundraising, and organized CalDay.
+                       <ul>
+                          <li><a href="https://cs-kickstart.berkeley.edu">CS KickStart Summer Program</a></li>
+                          <li><a href="https://www.instagram.com/cs.kickstart/?hl=en">Instagram</a></li>
+                          <li><a href="https://drive.google.com/file/d/1QSqK_ZCn7TOhysqpsbKsumCPfVhejsW9/view?usp=sharing">Recruitment Flyer</a></li>
+                        </ul>
+                     </div>
+                   </div>
+               </div>
+              <div class="work-text">
+                <p class="h4 work-title">CS KickStart Recruitment</p>
+                <p class="h5 work-description">Spearheaded a girl-in-tech club's summer program recruitment</p>
+              </div>
+        </div>
+        <div class="work">
+               <div class="work-pic work-small" id="codeology-img">
+                  <div class="opaque">
+                   <div class = "text_overlay"> Designed flyers using Adobe Illustrator, led publicity for industrial events and worked with commmittee.
+                     <ul>
+                        <li><a href="https://www.codeology.club">Codeology</a></li>
+                        <li><a href="">Flyer</a></li>
+                      </ul>
+                   </div>
+                  </div>
+               </div>
+              <div class="work-text">
+                <p class="h4 work-title">Codeology Media</p>
+                 <p class="h5 work-description">Led a software development club's publicity and media efforts</p>
+              </div>
+        </div>
+        <div class="work">
+               <div class="work-pic work-small" id="spotify-img">
+                   <div class="opaque">
+                     <div class = "text_overlay"> Explored HTML, CSS and Git by creating a personal website to show the world who I am!
+                     </div>
+                   </div>
+               </div>
+              <div class="work-text">
+                <p class="h4 work-title">Personal Website</p>
+                <p class="h5 work-description">Designed and developed a website to showcase my work.</p>
+              </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
 
-<footer>
+
+<!--<footer>
   <div class="footer-social-icons">
     <ul>
       <li><a href="mailto:tiffchung@berkeley.edu" target="_blank"><i class="fa fa-envelope"></i></a></li>
@@ -47,7 +162,4 @@
     </ul>
   </div>
   <p> 2019 Tiffany Chung </p>
-</footer>
-
-</body>
-</html>
+</footer>-->
