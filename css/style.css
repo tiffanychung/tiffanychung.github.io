@@ -220,5 +220,57 @@ a {
   background-color: #000;
 }
 #personalwebsite-img{
-  background-image: url(../img/spotifyrec.png);
+  background-image: url(../img/personalwebsite.png);
+  background-color: #272D2D;
 }
+
+/*-----Footer-----
+footer {
+  width: 100%;
+  height: auto;
+  min-height: 250px;
+  margin: 60px 0;
+}
+.footer-social-icons {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.footer-social-icons ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.footer-social-icons ul li {
+  display: inline-block;
+  margin-right: 2px;
+  width: 36px;
+  height: 36px;
+  line-height:36px;
+  text-align: center;
+}
+.footer-social-icons ul li a,b,c,d{
+  color: #fff;
+  display: block;
+  font-size: 22px;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+.footer-social-icons ul li a{
+  background: #f4e8c1;
+}
+.footer-social-icons ul li b{
+  background: #d6c9c9;
+}
+.footer-social-icons ul li c{
+  background: #c9f0ff;
+}
+.footer-social-icons ul li d{
+  background: #92dce5;
+}
+footer p {
+  color: #404348;
+  text-align: center;
+  margin: 60px 0;
+  text-decoration: none;
+}*/
