@@ -193,6 +193,11 @@ a {
 }
 
 /*----pictures----*/
+#logo-oracle{
+  background-image: url(../img/logo-oracle.png);
+  background-color:		#FFFFFF;
+}
+
 #spotify-img {
   background-image: url(../img/spotifyrec.png);
   background-color:	#181818;
