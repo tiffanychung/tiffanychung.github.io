@@ -195,7 +195,11 @@ a {
 /*----pictures----*/
 #oracle-img {
   background-image: url(../img/logo-oracle.png);
-  background-color:	#181818;
+  background-color:			#FFFFFF;
+}
+#musicgen-img {
+  background-image: url(../img/musicgen.png);
+  background-color:			#FFFFFF;
 }
 #spotify-img {
   background-image: url(../img/spotifyrec.png);
